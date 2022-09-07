@@ -1,0 +1,20 @@
+#up,#down{
+    width: 100px;
+    height: 100px;
+    border-width: 10px;
+  }
+  #total-count{
+    font-weight: 200px;
+    font-size: 70px;
+    padding: 50px;
+    border-width: 10px;
+    
+  }
+  .container{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
