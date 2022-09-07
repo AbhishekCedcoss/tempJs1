@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSForm</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div
+      style="border-radius: 24%; border: 10px; border-color: black"
+      id="main"
+    >
+      <h2>Age Recommended Weight</h2>
+      <div style="align-content: space-between"></div>
+      <div id="age">
+        <label
+          for="name"
+          style="font-size: 20px; padding: 6.5%; margin-bottom: 10px"
+          >Age Value</label
+        >
+        <input id="ag" type="text" placeholder="Age of Candidate" name="age" />
+      </div>
+      <div id="weight">
+        <label for="weight" style="font-size: 19px; padding: 8%">Weight</label>
+        <input
+          id="wt"
+          type="text"
+          placeholder="Weight of Candidate"
+          name="weight"
+        />
+      </div>
+      <div>
+        <button onclick="validate()" class="button" style="margin-left: 28%">
+          Submit
+        </button>
+      </div>
+
+      <p id="agee">Result Will be Published here-</p>
+    </div>
+  </body>
+</html>

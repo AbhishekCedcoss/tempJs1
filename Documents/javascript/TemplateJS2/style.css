@@ -1,0 +1,26 @@
+
+#main{
+    background-color: rgba(109, 161, 177, 0.678);
+    margin:6%;
+    padding: 6%;
+}
+#age{
+    padding-top: 1%;
+    
+}
+#weight{
+    padding-top: 2%;
+}
+.button:hover{
+    background-color: rgb(45, 153, 156);
+}
+.button{
+    margin-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+#agee{
+    margin-top: 10%;
+    margin-left: 7%;
+    font-size: large;
+}
